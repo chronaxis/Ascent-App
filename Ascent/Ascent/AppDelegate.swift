@@ -34,3 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// store data
+struct DefaultsKeys {
+    static let exitDuringTimer = false
+}
+
+// get data
+
+

@@ -13,6 +13,8 @@
 		766D90AB289055B4006ED7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766D90A9289055B4006ED7DC /* Main.storyboard */; };
 		766D90AD289055B6006ED7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766D90AC289055B6006ED7DC /* Assets.xcassets */; };
 		766D90B0289055B6006ED7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766D90AE289055B6006ED7DC /* LaunchScreen.storyboard */; };
+		768CC44B2892129B00B435EA /* SetTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC44A2892129B00B435EA /* SetTimerViewController.swift */; };
+		768CC44D2892138B00B435EA /* RunTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CC44C2892138B00B435EA /* RunTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		766D90AC289055B6006ED7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766D90AF289055B6006ED7DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		766D90B1289055B6006ED7DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768CC44A2892129B00B435EA /* SetTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimerViewController.swift; sourceTree = "<group>"; };
+		768CC44C2892138B00B435EA /* RunTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				766D90A3289055B4006ED7DC /* AppDelegate.swift */,
 				766D90A5289055B4006ED7DC /* SceneDelegate.swift */,
 				766D90A7289055B4006ED7DC /* ViewController.swift */,
+				768CC44A2892129B00B435EA /* SetTimerViewController.swift */,
+				768CC44C2892138B00B435EA /* RunTimerViewController.swift */,
 				766D90A9289055B4006ED7DC /* Main.storyboard */,
 				766D90AC289055B6006ED7DC /* Assets.xcassets */,
 				766D90AE289055B6006ED7DC /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				766D90A8289055B4006ED7DC /* ViewController.swift in Sources */,
+				768CC44D2892138B00B435EA /* RunTimerViewController.swift in Sources */,
 				766D90A4289055B4006ED7DC /* AppDelegate.swift in Sources */,
 				766D90A6289055B4006ED7DC /* SceneDelegate.swift in Sources */,
+				768CC44B2892129B00B435EA /* SetTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "Ascent Thumbnail.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "Ascent Thumbnail-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
