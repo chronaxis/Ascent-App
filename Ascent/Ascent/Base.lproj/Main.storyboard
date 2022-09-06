@@ -111,7 +111,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="1" textAlignment="right" minimumFontSize="17" id="FSN-lh-Saw">
-                                <rect key="frame" x="30" y="308" width="149" height="215"/>
+                                <rect key="frame" x="30" y="283" width="149" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -166,7 +166,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="minute(s)" textAlignment="center" minimumFontSize="17" id="bT2-IJ-Nky">
-                                <rect key="frame" x="187" y="556" width="149" height="111"/>
+                                <rect key="frame" x="187" y="497" width="149" height="111"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -174,7 +174,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hour(s)" textAlignment="center" minimumFontSize="17" id="gfs-Eb-k7i">
-                                <rect key="frame" x="187" y="387" width="130" height="111"/>
+                                <rect key="frame" x="187" y="358" width="130" height="111"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -182,12 +182,20 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" text="40" textAlignment="center" minimumFontSize="17" id="DaI-1m-nPY">
-                                <rect key="frame" x="30" y="472" width="149" height="215"/>
+                                <rect key="frame" x="30" y="419" width="149" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="148"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Interval: 5 Minutes" textAlignment="center" minimumFontSize="17" id="yXk-Bx-1TJ">
+                                <rect key="frame" x="66" y="547" width="270" height="148"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="50"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -234,15 +242,8 @@
                             <view contentMode="scaleToFill" id="DDu-Kq-etK">
                                 <rect key="frame" x="0.0" y="776" width="428" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dhs-L6-efW">
-                                        <rect key="frame" x="151" y="-34" width="111" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                </subviews>
                                 <viewLayoutGuide key="safeArea" id="BCn-qg-k8o"/>
-                                <color key="backgroundColor" red="0.75956833960000003" green="0.29786993709999998" blue="0.29786993709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.7607843876" green="0.29803922770000002" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Udt-35-EWc">
                                 <rect key="frame" x="130" y="728" width="152" height="15"/>
@@ -272,10 +273,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-oa-Zd1">
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-oa-Zd1">
                                 <rect key="frame" x="151" y="463" width="111" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jar-wb-m3U">
+                                        <rect key="frame" x="-21" y="-10" width="152" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TowerWindow" translatesAutoresizingMaskIntoConstraints="NO" id="vHO-si-yWl">
                                         <rect key="frame" x="20" y="24" width="70" height="81"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -283,9 +289,15 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jar-wb-m3U">
-                                <rect key="frame" x="130" y="449" width="152" height="15"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dhs-L6-efW">
+                                <rect key="frame" x="151" y="738" width="111" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TowerWindow" translatesAutoresizingMaskIntoConstraints="NO" id="7bc-Vu-bfy">
+                                        <rect key="frame" x="20" y="23" width="70" height="81"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
@@ -296,6 +308,9 @@
                         <outlet property="CurrentTimeDisplay" destination="Vq2-Ig-sEZ" id="ky9-WP-N0b"/>
                         <outlet property="IntervalTimer" destination="O8G-Qw-WI1" id="WM2-sh-8MZ"/>
                         <outlet property="TargetTimeDisplay" destination="qAI-jA-1zF" id="Qif-G4-g9d"/>
+                        <outlet property="TowerSection" destination="a5x-oa-Zd1" id="xKU-71-UlB"/>
+                        <outlet property="TowerTop" destination="Jar-wb-m3U" id="hLr-Pc-sR3"/>
+                        <outlet property="ViewParent" destination="wYF-d3-FN7" id="37x-iB-d2E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHQ-e4-9kX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
